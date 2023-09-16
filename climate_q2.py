@@ -1,5 +1,14 @@
+#Can you please write some code in climate_q2.py to load the data
+#from the csv file and show them in a figure?
+
+
 import matplotlib.pyplot as plt
 import pandas as pd
+df = pd.read_csv(r".\climate.csv")
+
+
+
+
 
 years = []
 co2 = []
